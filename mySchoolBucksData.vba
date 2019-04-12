@@ -1,3 +1,8 @@
+' takes pasted data from the transactions page and transforms it for table use
+' Use:
+' 1. Copy transactions page table (header and values) and paste into A1 of excel spreadsheet
+' 2. Copy vba into Marco/Button
+' 3. Run.
 Sub FromColumnToRowData()
     Dim i As Integer
     Dim o As Integer
